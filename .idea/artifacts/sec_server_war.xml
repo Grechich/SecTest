@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sec-server:war">
+    <output-path>$PROJECT_DIR$/SecTest/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>sec-server</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="sec-server-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="sec-server:war exploded" />
+    </root>
+  </artifact>
+</component>
